@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Selvan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--landing Nav Aboutme Projects Skills contact-->
+    <div class="web-site">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-none container">
+            <a class="navbar-brand" href="https://portfoliotamil.ccbp.tech">Portfolio</a>
+            <div class="ml-auto">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" id="homeLink" onclick="display('sectionHome')">Home</a>
+                        <a class="nav-link" id="aboutLink" onclick="display('sectionAbout')">About</a>
+                        <a class="nav-link" id="skillsLink" onclick="display('sectionSkills')">Skills</a>
+                        <a class="nav-link" id="projectsLink" onclick="display('sectionProjects')">Projects</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--Landing Page-->
+        <div class="landing-page profile d-flex flex-row justify-content-around mt-5" id="sectionHome">
+            <div class="profile-content mt-5">
+                <div class="image d-block d-md-none text-center mb-3">
+                    <img class="summary-img" src="documents/tamilsquare.jpeg" height="150px" width="100px" />
+                </div>
+
+                <h1 class="name">Tamil Selvan</h1>
+                <h3 class="job-role">Front End Developer</h3>
+                <p class="non-executive-summary text-white">
+                    An <b>Energetic</b> and <b>passionate FrontEnd Developer</b> with strong foundations in HTML,CSS<br>
+                    and JavaScript. With a deep interest in Full-Stack Development, I build<br>
+                    innovative and high-quality solutions that drive impact. Let's create<br>
+                    something amazing together!
+                </p>
+                <div class="text-center social-media-home">
+                    <button class="download-resume btn"><a class="download-text" href="documents/Tamil_Resume.pdf" download="Tamil_Selvan_Resume.pdf" target="_blank">Download Resume</a></button>
+                    <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/tamilselvan2007">in</a>
+                    <a target="_blank" href="mailto:tamilselvan.k.dev@gmail.com"><i class="bi bi-envelope-at-fill col-md-5" id="envelope-home"></i></a>
+                </div>
+            </div>
+            <div class="image d-md-block d-none">
+                <img class="img" src="documents/tamil.jpeg" height="300px" width="200px" />
+            </div>
+        </div>
+
+
+        <!--About Page-->
+        <div class="about-page" id="sectionAbout">
+            <div class="about-section container">
+                <div class="row summary r">
+                    <div class="col-12 col-md-3">
+                        <img src="documents/tamilsquare.jpeg" class="summary-img" />
+                    </div>
+                    <div class="col-12 col-md-8 text-left summary-content">
+                        <!--h3 class="name">Tamil Selvan.K</h3>
+                        <h4 class="job-role">FrontEnd Developer</h4-->
+                        <p>
+                            Hi. I'm Tamil Selvan, an <b>Energetic</b> and <b>passionate Frontend Developer</b> with expertise
+                            in HTML, CSS, and JavaScript. As a <b>Nxtwave student</b>, I have gained hands-on experience
+                            working on real-world projects, enhancing my ability to build <b>user-friendly</b> and
+                            <b>interactive</b> web applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="row about-body">
+                    <div class="what-i-do col-12 r">
+                        <div class="text-center"><img class="specialized-img d-md-none d-block" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww" /></div>
+                        <div class="specialized-content d-flex">
+                            <div>
+                                <h4 class="ubuntu-bold">Specialized in:</h4>
+                                <ul type="none" class="pl-5">
+                                    <li><i class="bi bi-arrow-return-right"></i>&ensp; Crafting responsive, visually appealing, and high-performance websites</li>
+                                    <li><i class="bi bi-arrow-return-right"></i>&ensp; Optimizing design, accessibility, and performance for seamless UX</li>
+                                    <li><i class="bi bi-arrow-return-right"></i>&ensp; Strong foundation in frontend technologies (HTML, CSS, JavaScript)</li>
+                                    <li><i class="bi bi-arrow-return-right"></i>&ensp; Passionate about learning, innovating, and improving</li>
+                                </ul>
+                            </div>
+                            <div class="ml-auto"><img class="code-img specialized-img d-md-block d-none" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww" /></div>
+                        </div>
+                    </div>
+                    <div class="my-approach col-12 r">
+                        <h4 class="ubuntu-bold">My Work Approach</h4>
+                        <p>Beyond coding, I bring essential soft skills to the table:</p>
+                        <ul type="none">
+                            <li>&emsp; --> <b>Problem-Solving</b> : I enjoy tackling challenges with logical solutions.</li>
+                            <li>&emsp; --> <b>Teamwork & Leadership</b> : I thrive in collaborative environments and take initiative when needed.</li>
+                            <li>&emsp; --> <b>Open-Minded & Adaptive</b>: I embrace new technologies and adapt quickly to changes.</li>
+                        </ul>
+                    </div>
+                    <div class="achievements col-12 r d-md-flex">
+                        <div class="text-center"><img class="archievements-img" src="data:image/jpeg;base64,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" /></div>
+                        <div class="ml-5">
+                            <h4 class="ubuntu-bold">Achievements</h4>
+                            <ul class="pl-5" type="square">
+                                <li>Secured 1st place in the college-level coding competition (problem-solving) in my first year, organized by our college.</li>
+                                <li>Finalist in HackIndia 2025 (college level) among 46 teams for developing a speech and face recognition gesture system that enables disabled individuals to operate devices like mobiles and laptops without physical touch.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row r">
+                    <div class="col-12">
+                        <h4 class="ubuntu-bold">Let's connect</h4>
+                        <p>If you’d like to collaborate, discuss ideas, or check out my work, feel free to connect with me:</p>
+                        <a target="_blank" href="https://www.linkedin.com/in/tamilselvan2007" class="ml-5"><i class="bi bi-linkedin mr-3"></i></a>
+                        <a target="_blank" href="mailto:tamilselvan.k.dev@gmail.com"><i class="bi bi-envelope-at-fill col-md-5"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Skills Page-->
+        <div class="skills-page" id="sectionSkills">
+            <div class="skills container">
+                <div class="row skill-card">
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752415/html.jpg" />
+                        <h3 class="skill-name">HTML</h3>
+                    </div>
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752415/css.jpg" />
+                        <h3 class="skill-name">CSS</h3>
+                    </div>
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752416/js.jpg" />
+                        <h3 class="skill-name">JavaScript</h3>
+                    </div>
+                </div>
+                <div class="row skill-card">
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752275/bootstrap.jpg" />
+                        <h3 class="skill-name">Bootstrap</h3>
+                    </div>
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752417/sql.jpg" />
+                        <h3 class="skill-name">SQL</h3>
+                    </div>
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752228/WhatsApp_Image_2025-03-23_at_11.13.20_PM_zhjq67.jpg" />
+                        <h3 class="skill-name">Python</h3>
+                    </div>
+                </div>
+                <div class="row skill-card">
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752414/c.jpg" />
+                        <h3 class="skill-name">C</h3>
+                    </div>
+                    <div class="skill-container col-12 col-md-5 col-lg-3">
+                        <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752413/cpp.jpg" />
+                        <h3 class="skill-name">C++</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----Projects Page---->
+        <div class="projects-page" id="sectionProjects">
+            <div class="projects-section">
+                <div class="project-card d-flex">
+                    <div class="project-img">
+                        <img class="proj-img" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1743446417/tekh-bot-img.jpg" />
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-tite">Technical Chatbot</h2>
+                        <p>Tekh-Bot is an intelligent chatbot designed for technical education, providing accurate and interactive responses to user queries. It utilizes advanced search techniques, fuzzy matching, and Levenshtein distance for precise answers. Built with JavaScript and Flask, it ensures a seamless user experience. Tekh-Bot enhances learning by offering structured, real-time assistance.</p>
+                        <a onclick="display('sectionTekhbot')" class="text-primary">View more></a>
+                    </div>
+                </div>
+                <div class="project-card d-flex">
+                    <div class="project-img">
+                        <img class="proj-img" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742911975/wikipedialogo_ejmena.webp" />
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-tite">Wikipedia Search Application</h2>
+                        <p>A Wikipedia Search Application that allows users to quickly find and explore Wikipedia articles with a clean and intuitive interface. Fast, efficient, and user-friendly : get the information you need in seconds!</p>
+                        <a onclick="display('sectionWikipedia')" class="text-primary">View more></a>
+                    </div>
+                </div>
+                <div class="project-card d-flex">
+                    <div class="project-img">
+                        <img class="proj-img" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742911975/todolistlogo_ruejnw.webp" />
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-tite">Collaborative Todo-list</h2>
+                        <p>Collaborative To-Do List is a powerful task management app that allows multiple users to add, edit, and track tasks in real-time. It features local storage support, ensuring that users' lists are securely saved even after closing the browser. Stay organized and collaborate effortlessly!</p>
+                        <a onclick="display('sectionTodo')" class="text-primary">View more></a>
+                    </div>
+                </div>
+                <div class="project-card connect bg-light">
+                    <h4 class="ubuntu-bold">Let's connect</h4>
+                    <p>If you’d like to collaborate, discuss ideas, or check out my work, feel free to connect with me:</p>
+                    <a target="_blank" href="https://www.linkedin.com/in/tamilselvan2007" class="ml-5"><i class="bi bi-linkedin mr-3"></i></a>
+                    <a target="_blank" href="mailto:tamilselvan.k.dev@gmail.com"><i class="bi bi-envelope-at-fill col-md-5"></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+  
+
+
+        <!---Projects Detailed Explantion--->
+
+        <!--Wikipedia search app -->
+        <div class="project-wikipedia proj" id="sectionWikipedia">
+            <div class="wikipedia-section proj-section">
+                <div class="p-head w-100 text-center  ubuntu-bold">
+                    <h2 class="p-title">🌍 Wikipedia Search Application</h2>
+                    <a href="https://wikisearchhhh.ccbp.tech/" target="_blank">Open the web</a>
+                </div>
+                <div class="project-overview">
+                    <h3 class="ubuntu-medium">Project Overview</h3>
+                    <p class="ubuntu-regular-italic">A fast and user-friendly web application it allows users to search Wikipedia articles instantly. It fetches data from the Wikipedia API and presents results in a clean and structured format.</p>
+                    <ul type="none" class="ubuntu-regular-italic">
+                        <li>&ensp; 🔹 Dynamic Wikipedia Search Application enables users to fetch and display Wikipedia articles in real time using the Wikipedia API.</li>
+                        <li>&ensp; 🔹 Optimized API requests, reducing response time by 40%, ensuring seamless and efficient search experiences.</li>
+                        <li>&ensp; 🔹 Implemented a responsive UI with a user-friendly design, enhancing accessibility across 100% of devices.</li>
+                        <li>&ensp; 🔹 Integrated error handling and edge-case optimizations to improve search accuracy and prevent API failures by 90%.</li>
+                    </ul>
+                </div>
+                <div class="project-demo">
+                    <h3 class="ubuntu-medium">Project Demo</h3>
+                    <div class="w-100 text-center"><img loading="lazy" class="project-gif" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1743004424/ezgif.com-optimize_n00pgm.gif" /></div>
+                </div>
+                <div class="features">
+                    <h3 class="ubuntu-medium">Features</h3>
+                    <ul>
+                        <li>&emsp; Instant Wikipedia search powered by the API</li>
+                        <li>&emsp; Clickable results that open Wikipedia articles</li>
+                        <li>&emsp; Responsive design for seemless experience in all devices</li>
+                    </ul>
+                </div>
+                <div class="tech-stack">
+                    <h3 class="p-tech-stack ubuntu-medium">Tech Stack Used</h3>
+                    <ul>
+                        <li>&emsp; <b>HTML,CSS</b> - For structuring & styling.</li>
+                        <li>&emsp; <b>JavaScript</b> - For dynamic interactions.</li>
+                        <li>&emsp; <b>Fetch API</b> - To retrieve Wikipedia data.</li>
+                    </ul>
+                </div>
+                <div class="challenges-solutions">
+                    <h3 class="ubuntu-medium">Challenges & Solutions</h3>
+                    <ul>
+                        <li>&emsp; <b>Handling API delays:</b> Implemented loading indicators for better UX</li>
+                        <li>&emsp; <b>Ensuring Mobile responsiveness:</b> Used flebox & media queries to optimize the design.</li>
+                    </ul>
+                </div>
+                <div class="back-button"><button class="btn btn-secondary" onclick="display('sectionProjects')">Back</button></div>
+            </div>
+        </div>
+
+        <!--Todo List-->
+        <div class="project-todo proj" id="sectionTodo">
+            <div class="todo-section proj-section">
+                <div class="p-head w-100 text-center  ubuntu-bold">
+                    <h2 class="p-title">Collaborative Todo-List</h2>
+                    <a href="https://collabtodo.ccbp.tech/" target="_blank">Open the web</a>
+                </div>
+                <div class="project-overview">
+                    <h3 class="ubuntu-medium">Project Overview</h3>
+                    <p class="ubuntu-regular-italic">A feature-rich task management web application designed to streamline collaboration and productivity. This project leverages Local Storage for data persistence, allowing users to manage tasks efficiently without losing progress.</p>
+                    <ul type="none" class="ubuntu-regular-italic">
+                        <li>&ensp; 🔹 100% responsive collaborative to-do list, ensuring seamless functionality across desktops, tablets, and mobile devices.</li>
+                        <li>&ensp; 🔹 Optimized task scheduling with a 90% faster task management system, providing a smooth and efficient user experience.</li>
+                        <li>&ensp; 🔹 Implemented 100% data persistence using local storage, allowing users to retain their tasks even after a page refresh.</li>
+                        <li>&ensp; 🔹 Designed a simple and intuitive UI, improving user experience by 80%, making task management effortless and efficient.</li>
+                    </ul>
+                </div>
+                <div class="project-demo">
+                    <h3 class="ubuntu-medium">Project Demo</h3>
+                    <div class="w-100 text-center"><img loading="lazy" class="project-gif" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1743080206/CollabTodoList_e7gmv4.gif" /></div>
+                </div>
+                <div class="features">
+                    <h3 class="ubuntu-medium">Features</h3>
+                    <ul>
+                        <li>&emsp; <b>Fully Responsive Design</b> – Works on all devices, from desktops to mobile screens.</li>
+                        <li>&emsp; <b>Task Scheduling & Management</b> – Users can create, edit, and remove tasks easily.</li>
+                        <li>&emsp; <b>Local Storage Support</b> – Ensures tasks are saved even after the page is refreshed.</li>
+                        <li>&emsp; <b>Fast & Lightweight</b> – No database or server required, making the app quick and efficient.</li>
+                        <li>&emsp; <b>Minimalist UI</b> – A simple, clutter-free design that enhances user experience.</li>
+                    </ul>
+                </div>
+                <div class="tech-stack">
+                    <h3 class="p-tech-stack ubuntu-medium">Tech Stack Used</h3>
+                    <ul>
+                        <li>&emsp; <b>Frontend: </b>HTML, CSS, JavaScript</li>
+                        <li>&emsp; <b>Storage: </b>Local Storage (to store and retrieve user tasks)</li>
+                    </ul>
+                </div>
+                <div class="challenges-solutions">
+                    <h3 class="ubuntu-medium">Challenges & Solutions</h3>
+                    <ul>
+                        <li>&emsp; <b>Data Persistence Without a Backend: </b>Ensuring users don’t lose their tasks after refreshing.</li>
+                        <li>&emsp; <b>Ensuring Smooth User Experience: </b>Making the UI intuitive and easy to navigate.</li>
+                        <li>&emsp; <b>Responsiveness Across Devices: </b>Adapting the User interface for different screen sizes.</li>
+                    </ul>
+                </div>
+                <div class="back-button"><button class="btn btn-secondary" onclick="display('sectionProjects')">Back</button></div>
+            </div>
+        </div>
+
+        <!--Tekh-bot-->
+
+        <div class="project-tekhbot proj" id="sectionTekhbot">
+            <div class="tekhbot-section proj-section">
+                <div class="p-head w-100 text-center  ubuntu-bold">
+                    <h2 class="p-title">Technical Chatbot</h2>
+                    <a href="https://tamil-li.github.io/Tekh-bot/" target="_blank">Open the web</a>
+                </div>
+                <div class="project-overview">
+                    <h3 class="ubuntu-medium">Project Overview</h3>
+                    <p class="ubuntu-regular-italic">Tekh-Bot is an AI-powered chatbot for technical education, offering instant, accurate responses and structured learning assistance. It leverages web technologies and NLP techniques for an interactive and efficient experience.</p>
+                    <ul type="none" class="ubuntu-regular-italic">
+                        <li>&ensp; 🔹 An AI-powered chatbot for technical education, enhancing user engagement by 80%.</li>
+                        <li>&ensp; 🔹 Implemented fuzzy matching and Levenshtein distance, improving query recognition accuracy by 90%.</li>
+                        <li>&ensp; 🔹 Built with HTML, CSS, JavaScript for seamless and efficient interactions.</li>
+                        <li>&ensp; 🔹 Optimized response time by 70% using lightweight JavaScript and local JSON-based data storage.</li>
+                    </ul>
+                </div>
+                <div class="project-demo">
+                    <h3 class="ubuntu-medium">Project Demo</h3>
+                    <div class="w-100 text-center"><img loading="lazy" class="project-gif" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1743445075/tekh-bot.gif" /></div>
+                </div>
+                <div class="features">
+                    <h3 class="ubuntu-medium">Features</h3>
+                    <ul>
+                        <li>&emsp; <b>Smart Query Handling: </b> Uses fuzzy matching and Levenshtein distance for accurate text recognition.</li>
+                        <li>&emsp; <b>Real-time Responses:</b> Instantly delivers answers based on a structured dataset.</li>
+                        <li>&emsp; <b>Interactive UI: </b> User-friendly chat interface for smooth engagement.</li>
+                        <li>&emsp; <b>Enhanced Search Mechanism:</b> Fuzzy matching ensures better query recognition.</li>
+                        <li>&emsp; <b>Optimized Performance:</b> Efficient processing for fast response times.</li>
+                        <li>&emsp; <b>Data Storage: </b> Uses JSON files in local storage for session data.</li>
+                    </ul>
+                </div>
+                <div class="tech-stack">
+                    <h3 class="p-tech-stack ubuntu-medium">Tech Stack Used</h3>
+                    <ul>
+                        <li>&emsp; <b>Frontend:</b> HTML, CSS, JavaScript, Bootstrap</li>
+                        <li>&emsp; <b>Data Processing: </b>JavaScript-based fuzzy matching & Levenshtein distance</li>
+                        <li>&emsp; <b>Storage: </b>JSON file-based local storage</li>
+                    </ul>
+                </div>
+                <div class="challenges-solutions">
+                    <h3 class="ubuntu-medium">Challenges & Solutions</h3>
+                    <ul>
+                        <li>&emsp; <b>Effective Query Recognition --> </b>Integrated fuzzy matching & Levenshtein distance for better accuracy.</li>
+                        <li>&emsp; <b>Improving Response Precision Without NLP Models --> </b>Optimized rule-based keyword matching for clear answers.</li>
+                        <li>&emsp; <b>Ensuring High Performance & Minimal Latency --></b> Used lightweight JavaScript & Flask for smooth execution.</li>
+                    </ul>
+                </div>
+                <div class="impact">
+                    <h3 class="ubuntu-medium">Impact</h3>
+                    <p>Tekh-Bot enhances technical education by making learning more interactive, accessible, and efficient. It simplifies complex concepts, enabling users to find accurate answers quickly.</p>
+                </div>
+                <div class="back-button"><button class="btn btn-secondary" onclick="display('sectionProjects')">Back</button></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--script type="text/javassript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script-->
+</body>
+<script src="script.js"></script>
+
+</html>
