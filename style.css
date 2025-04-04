@@ -144,7 +144,7 @@ b{
 .img{
     width:218px;
     object-fit: contain;
-    border-radius: 50px;
+    border-radius: 60%;
     border:5px dotted rgb(22, 131, 220);
 }
 .social-media-home{
