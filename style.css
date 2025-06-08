@@ -3,6 +3,12 @@
 
 /* ----Google fonts Class names---- */
 
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
 .ubuntu-light {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
@@ -74,10 +80,15 @@ b{
 
 .web-site{
     width:100vw;
-    min-height:100vh;
+    max-height:100vh;
+    height:100vh;
     background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(28, 11, 136, 1) 73%, rgba(74, 31, 224, 1) 95%);
 }
 
+.page, .proj{
+    max-height: 80vh;;
+    overflow-y: scroll;
+}
 /* Landing Page */
 
 .landing-page {
@@ -144,7 +155,7 @@ b{
 .img{
     width:218px;
     object-fit: contain;
-    border-radius: 85px;
+    border-radius: 10px;
     border:5px dotted rgb(22, 131, 220);
 }
 .social-media-home{
@@ -185,12 +196,22 @@ b{
     background-color: blue;
     text-decoration: none;
 }
-
-#envelope-home{
-    font-size: 40px;
-    margin-right:30px;
+.contact-btn{
+    padding:8px;
+    border-radius: 20px;
+    background-color: darkorange;
+    font-weight:400;
+    color:#fff;
 }
 
+.contact-btn:hover{
+    box-shadow:0px 0px 10px 5px #96fc04;
+    color:#96fc04;
+}
+
+.bi-arrow-right{
+    font-weight: bold;
+}
 /* About Page */
 
 .about-page{
@@ -233,16 +254,27 @@ b{
     border-radius: 10px;
 }
 
+.lets-connect-icons{
+    align-items:center
+}
+
 .bi-linkedin{
     color:blue !important;
     font-size: 40px;
 }
 
-.bi-envelope-at-fill{
-    color: red !important;
-    font-size: 40px;
+.bi-linkedin:hover{
+    box-shadow: 0px 0px 2px 2px dodgerblue;
 }
 
+.contact-btn-about{
+    padding:5px 10px !important;
+    min-height:45px;
+}
+.contact-btn-about:hover{
+    box-shadow:0px 0px 10px 5px pink;
+    color:pink;
+}
 /* Skills Page */
   
 .skill-card{
@@ -305,7 +337,79 @@ b{
     }
 }
 
-/* Wikipedia Search Application */
+/* Contact Page */
+
+.contact-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    width:100vw;
+}
+
+.contact-page .inner-box{
+    width:95%;
+}
+
+.form-caption{
+    color:#96fc04;
+    margin-bottom: 0;
+}
+.caption-underline{
+    background-color: #96fc04;
+    height:5px;
+    width:25%;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+.contact-form{
+    border:0;
+    background-color: #fff;
+    padding:20px;
+    width:95%;
+    border-radius: 18px;
+}
+
+@media(min-width:768px){
+    .contact-page .inner-box{
+        width:35%;
+    }
+}
+
+.contact-page input, .contact-page .user-message{
+    width:100%;
+    padding:10px;
+    border:0;
+    border-radius: 18px;
+    margin-top:0;
+    box-shadow:0px .5px .5px .5px cornflowerblue;
+}
+
+.contact-page input:hover, .contact-page .user-message:hover{
+    box-shadow:0px 0px 2px 2px #96fc04;
+}
+
+.label{
+    margin-top:10px;
+    font-size: small;
+    margin-bottom:0;
+}
+
+.submit-btn{
+    color: #fff;
+    padding: 7px 15px; 
+    border-radius: 18px;
+    background-color: darkcyan;
+    font-family: "Calibri";
+}
+
+.submit-btn:hover{
+    box-shadow: 0px 0px 3px 3px #96fc04;
+    color:#96fc04;
+}
+
+/* Projects */
 
 .proj{
     display:flex;
