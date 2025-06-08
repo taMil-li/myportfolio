@@ -17,7 +17,7 @@
     <!--landing Nav Aboutme Projects Skills contact-->
     <div class="web-site">
         <nav class="navbar navbar-expand-lg navbar-dark bg-none container">
-            <a class="navbar-brand" href="https://tamil-li.github.io/myportfolio/">Portfolio</a>
+            <a class="navbar-brand" href="https://portfoliotamil.ccbp.tech">Portfolio.</a>
             <div class="ml-auto">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,17 +28,17 @@
                         <a class="nav-link" id="aboutLink" onclick="display('sectionAbout')">About</a>
                         <a class="nav-link" id="skillsLink" onclick="display('sectionSkills')">Skills</a>
                         <a class="nav-link" id="projectsLink" onclick="display('sectionProjects')">Projects</a>
-                        
+                        <a class="nav-link" id="contactMeLink" onclick="display('sectionContactMe')">Contact Me</a>
                     </div>
                 </div>
             </div>
         </nav>
 
         <!--Landing Page-->
-        <div class="landing-page profile d-flex flex-row justify-content-around mt-5" id="sectionHome">
+        <div class="landing-page page profile d-flex flex-row justify-content-around mt-5" id="sectionHome">
             <div class="profile-content mt-5">
                 <div class="image d-block d-md-none text-center mb-3">
-                    <img class="summary-img" src="tamilsquare.jpeg" height="150px" width="100px" />
+                    <img class="summary-img" src="documents/tamilsquare.jpeg" height="150px" width="100px" />
                 </div>
 
                 <h1 class="name">Tamil Selvan</h1>
@@ -50,23 +50,23 @@
                     something amazing together!
                 </p>
                 <div class="text-center social-media-home">
-                    <button class="download-resume btn"><a class="download-text" href="TamilSelvan_Resume.pdf" download="TamilSelvan_Resume.pdf" target="_blank">Download Resume</a></button>
+                    <button class="download-resume btn"><a class="download-text" href="documents/Tamil_Resume.pdf" download="Tamil_Selvan_Resume.pdf" target="_blank">Download Resume</a></button>
                     <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/tamilselvan2007">in</a>
-                    <a target="_blank" href="mailto:tamilselvan.k.dev@gmail.com"><i class="bi bi-envelope-at-fill col-md-5" id="envelope-home"></i></a>
+                    <button class="contact-btn btn" onclick="display('sectionContactMe')">Contact Me <i class="bi bi-arrow-right"></i> </button>
                 </div>
             </div>
             <div class="image d-md-block d-none">
-                <img class="img" src="tamil.jpeg" height="300px" width="200px" />
+                <img class="img" src="documents/tamil.jpeg" height="300px" width="200px" />
             </div>
         </div>
 
 
         <!--About Page-->
-        <div class="about-page" id="sectionAbout">
+        <div class="about-page page" id="sectionAbout">
             <div class="about-section container">
                 <div class="row summary r">
                     <div class="col-12 col-md-3">
-                        <img src="tamilsquare.jpeg" class="summary-img" />
+                        <img src="documents/tamilsquare.jpeg" class="summary-img" />
                     </div>
                     <div class="col-12 col-md-8 text-left summary-content">
                         <!--h3 class="name">Tamil Selvan.K</h3>
@@ -119,8 +119,10 @@
                     <div class="col-12">
                         <h4 class="ubuntu-bold">Let's connect</h4>
                         <p>If you’d like to collaborate, discuss ideas, or check out my work, feel free to connect with me:</p>
-                        <a target="_blank" href="https://www.linkedin.com/in/tamilselvan2007" class="ml-5"><i class="bi bi-linkedin mr-3"></i></a>
-                        <a target="_blank" href="mailto:tamilselvan.k.dev@gmail.com"><i class="bi bi-envelope-at-fill col-md-5"></i></a>
+                        <div class="lets-connect-icons d-flex justify-content-around w-50">
+                            <a target="_blank" href="https://www.linkedin.com/in/tamilselvan2007" class="ml-5"><i class="bi bi-linkedin mr-3"></i></a>
+                            <button class="contact-btn btn contact-btn-about" onclick="display('sectionContactMe')">Contact Me <i class="bi bi-arrow-right"></i> </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,7 +131,7 @@
 
 
         <!--Skills Page-->
-        <div class="skills-page" id="sectionSkills">
+        <div class="skills-page page" id="sectionSkills">
             <div class="skills container">
                 <div class="row skill-card">
                     <div class="skill-container col-12 col-md-5 col-lg-3">
@@ -144,6 +146,8 @@
                         <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752416/js.jpg" />
                         <h3 class="skill-name">JavaScript</h3>
                     </div>
+                </div>
+                <div class="row skill-card">
                     <div class="skill-container col-12 col-md-5 col-lg-3">
                         <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752275/bootstrap.jpg" />
                         <h3 class="skill-name">Bootstrap</h3>
@@ -156,6 +160,8 @@
                         <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752228/WhatsApp_Image_2025-03-23_at_11.13.20_PM_zhjq67.jpg" />
                         <h3 class="skill-name">Python</h3>
                     </div>
+                </div>
+                <div class="row skill-card">
                     <div class="skill-container col-12 col-md-5 col-lg-3">
                         <img class="skill" src="https://res.cloudinary.com/dd7ec5m1r/image/upload/v1742752414/c.jpg" />
                         <h3 class="skill-name">C</h3>
@@ -169,7 +175,7 @@
         </div>
 
         <!----Projects Page---->
-        <div class="projects-page" id="sectionProjects">
+        <div class="projects-page page" id="sectionProjects">
             <div class="projects-section">
                 <div class="project-card d-flex">
                     <div class="project-img">
@@ -204,14 +210,34 @@
                 <div class="project-card connect bg-light">
                     <h4 class="ubuntu-bold">Let's connect</h4>
                     <p>If you’d like to collaborate, discuss ideas, or check out my work, feel free to connect with me:</p>
-                    <a target="_blank" href="https://www.linkedin.com/in/tamilselvan2007" class="ml-5"><i class="bi bi-linkedin mr-3"></i></a>
-                    <a target="_blank" href="mailto:tamilselvan.k.dev@gmail.com"><i class="bi bi-envelope-at-fill col-md-5"></i></a>
+                    <div class="lets-connect-icons d-flex justify-content-around w-50">
+                            <a target="_blank" href="https://www.linkedin.com/in/tamilselvan2007" class="ml-5"><i class="bi bi-linkedin mr-3"></i></a>
+                            <button class="contact-btn btn" onclick="display('sectionContactMe')">Contact Me <i class="bi bi-arrow-right"></i> </button>
+                    </div>
                 </div>
             </div>
 
             
         </div>
-  
+
+        <div class="contact-page page" id="sectionContactMe">
+            <div class="inner-box">
+            <caption class="form-caption">
+                <h1 class="form-caption">Contact Me</h1>
+                <div class="caption-underline"></div>
+            </caption>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="51e2a2e9-d901-4397-8781-124025cd106b">
+                <label for="name" class="label">Name</label><br>
+                <input type="text" name="name" class="user-name" id="name" placeholder="Your name" required><br>
+                <label for="email" class="label">Email</label><br>
+                <input type="email" name="email" class="user-email" id="email" placeholder="Your email" required><br>
+                <label for="message" class="label">Message</label><br>
+                <textarea name="message" id="message" class="user-message" rows="5" cols="30" placeholder="Type the message here..."></textarea>
+                <div class="text-center"><button class="submit-btn">Submit</button></div>
+            </form>
+            </div>
+        </div>
 
 
         <!---Projects Detailed Explantion--->
@@ -221,7 +247,7 @@
             <div class="wikipedia-section proj-section">
                 <div class="p-head w-100 text-center  ubuntu-bold">
                     <h2 class="p-title">🌍 Wikipedia Search Application</h2>
-                    <a href="https://wikisearchhhh.ccbp.tech/" target="_blank">Open the web</a>
+                    <a href="https://tamil-li.github.io/WikipediaSearch/" target="_blank">Open the web</a>
                 </div>
                 <div class="project-overview">
                     <h3 class="ubuntu-medium">Project Overview</h3>
@@ -269,7 +295,7 @@
             <div class="todo-section proj-section">
                 <div class="p-head w-100 text-center  ubuntu-bold">
                     <h2 class="p-title">Collaborative Todo-List</h2>
-                    <a href="https://collabtodo.ccbp.tech/" target="_blank">Open the web</a>
+                    <a href="https://tamil-li.github.io/CollaborativeTodoList/" target="_blank">Open the web</a>
                 </div>
                 <div class="project-overview">
                     <h3 class="ubuntu-medium">Project Overview</h3>
@@ -372,13 +398,6 @@
         </div>
 
     </div>
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <!--script type="text/javassript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script-->
 </body>
 <script src="script.js"></script>
 
